@@ -2,9 +2,8 @@
 export const business = {
   name: "Tad Dailey Painting, LLC",
   shortName: "Tad Dailey Painting",
-  // TODO: replace with the real business phone number.
-  phone: "(941) 555-0142",
-  phoneHref: "tel:+19415550142",
+  phone: "(941) 343-7662",
+  phoneHref: "tel:+19413437662",
   email: "info@taddaileypainting.com",
   city: "Sarasota",
   state: "FL",
