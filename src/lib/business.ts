@@ -9,6 +9,9 @@ export const business = {
   state: "FL",
   yearsExperience: "15+",
   hours: "Mon–Fri 7:30am – 5:30pm · Sat by appointment",
+  // Google Business Profile links used on the Reviews page.
+  googleReviewsUrl: "https://www.google.com/search?q=Tad+Dailey+Painting+Sarasota+FL+reviews",
+  googleWriteReviewUrl: "https://www.google.com/search?q=Tad+Dailey+Painting+Sarasota+FL",
   serviceArea: [
     "Sarasota",
     "Bradenton",
