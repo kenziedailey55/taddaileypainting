@@ -51,7 +51,7 @@ const projects = [
     image: cabinetsImg,
   },
   {
-    title: "Deck &amp; pergola staining — Osprey",
+    title: "Deck & pergola staining — Osprey",
     detail: "Sanded, brightened and sealed with a UV-resistant penetrating stain.",
     image: stainingImg,
   },
@@ -116,7 +116,7 @@ function GalleryPage() {
                 </figure>
               </div>
               <div className="p-6">
-                <h2 className="text-xl">{p.title.replace("&amp;", "&")}</h2>
+                <h2 className="text-xl">{p.title}</h2>
                 <p className="mt-2 text-sm text-muted-foreground">{p.detail}</p>
               </div>
             </li>
