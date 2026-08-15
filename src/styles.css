@@ -11,8 +11,8 @@
  */
 
 @theme inline {
-  --font-display: "Fraunces", Georgia, serif;
-  --font-sans: "Figtree", ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-display-family);
+  --font-sans: var(--font-sans-family);
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
@@ -54,6 +54,8 @@
 }
 
 :root {
+  --font-display-family: "Fraunces", Georgia, serif;
+  --font-sans-family: "Figtree", ui-sans-serif, system-ui, sans-serif;
   --radius: 0.5rem;
   --background: oklch(0.985 0.008 85);
   --foreground: oklch(0.24 0.025 55);
@@ -118,14 +120,14 @@
   body {
     background-color: var(--color-background);
     color: var(--color-foreground);
-    font-family: var(--font-sans);
+    font-family: var(--font-sans-family);
     -webkit-font-smoothing: antialiased;
   }
 
   h1,
   h2,
   h3 {
-    font-family: var(--font-display);
+    font-family: var(--font-display-family);
     font-weight: 600;
     letter-spacing: -0.015em;
   }
