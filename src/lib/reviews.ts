@@ -11,7 +11,7 @@ export type Review = {
   source: "Google" | "Referral";
 };
 
-export const reviews: Review[] = 
+export const reviews: Review[] = [
   {
     quote:
       "Tad worked with Abide Designs to completely refresh an entire orthodontist office in Lakewood Ranch. The punctuality and professionalism of both him and his team is not to be overlooked. We will definitely do other projects with Tad and his crew in the future and will continue to recommend them for future projects in our area.:)",
@@ -29,8 +29,7 @@ export const reviews: Review[] =
     rating: 5,
     date: "2024",
     source: "Google",
-  },;
-
+  },;];
 export const reviewStats = {
   average:
     Math.round((reviews.reduce((sum, r) => sum + r.rating, 0) / reviews.length) * 10) / 10,
